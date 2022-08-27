@@ -554,7 +554,6 @@ footer {
 
   #about-me {
     background: url(./pics/illustration\ about\ me\ desktops.svg) no-repeat, url(./pics/illustration-about-me-2-desktop.svg) 0% 15% no-repeat;
-    /* background-repeat: no-repeat; */
     background-size: 100%, 13%;
   }
 
@@ -599,9 +598,7 @@ footer {
 
   #form-container {
     background: url(./pics/contact\ form-illustratoin-3-desktop.svg) 100% 90% no-repeat, url(./pics/illustration-2-contact-form-desktop.svg) 40% 90% no-repeat, url(./pics/illustration-1-contact-form-desktop.svg) 0% 100% no-repeat;
-    /* background-repeat: no-repeat; */
     background-size: 13%, 9%, 13%;
-    /* background-position: 99% 88%; */
     width: 100%;
     margin-right: auto;
     margin-left: auto;
