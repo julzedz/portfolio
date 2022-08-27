@@ -275,6 +275,7 @@ button:hover {
   height: auto;
   width: 88.3%;
   display: flex;
+  font-size: 2rem;
   margin-top: 2.5rem;
   align-items: center;
   justify-content: center;
@@ -396,6 +397,14 @@ footer {
   body {
     width: 100%;
   }
+
+  header #top {
+    position: fixed;
+  }
+
+  main {
+  margin-top: 0;
+}
 
   nav {
     position: fixed;
@@ -599,7 +608,8 @@ footer {
 
   #form-container h2 {
     height: auto;
-    width: 33vw;
+    padding-left: 2em;
+    width: 38vw;
     font-weight: 700;
     font-size: 2.5vw;
     line-height: 3.2rem;
@@ -615,7 +625,7 @@ footer {
     width: 50.5vw;
     height: auto;
     margin-top: 3.6em;
-    margin-left: 2%;
+    margin-left: 5%;
     margin-right: 0;
   }
 
