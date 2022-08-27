@@ -587,7 +587,9 @@ footer {
     /* background-repeat: no-repeat; */
     background-size: 13%, 9%, 13%;
     /* background-position: 99% 88%; */
-    width: 90%;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
     padding: 5em 0;
     padding-bottom: 12em;
     height: auto;
