@@ -606,19 +606,19 @@ button {
   letter-spacing: 0.37px;
   color: #172b4d;
   margin: 0 auto;
-}
-
-#form-element {
-  display: flex;
-  flex-direction: column;
-  width: 55.5vw;
-  height: auto;
-  margin-top: 3.6em;
-  margin-left: 2%;
-  margin-right: 0;
-}
-
-  #email {
-    display: none;
   }
-}
+
+  #form-element {
+    display: flex;
+    flex-direction: column;
+    width: 55.5vw;
+    height: auto;
+    margin-top: 3.6em;
+    margin-left: 2%;
+    margin-right: 0;
+  }
+
+    #email {
+      display: none;
+    }
+  }
