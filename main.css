@@ -209,10 +209,9 @@ button {
 }
 
 button:hover {
-  background: #c5e9da;
-  box-shadow: 0 0.25em 0.25em;
-  opacity: 0.8;
-  color: #172b4d;
+  background: #36b37f;
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  color: #fff;
 }
 
 #about-me {
@@ -539,9 +538,9 @@ footer {
   }
 
   #about-me {
-    background: url(./pics/illustration\ about\ me\ desktops.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: url(./pics/illustration\ about\ me\ desktops.svg) no-repeat, url(./pics/illustration-about-me-2-desktop.svg) 0% 15% no-repeat;
+    /* background-repeat: no-repeat; */
+    background-size: 100%, 13%;
   }
 
   .about-row {
@@ -584,12 +583,13 @@ footer {
   }
 
   #form-container {
-    background: url(./pics/illustration-contact-form.svg);
-    background-repeat: no-repeat;
-    background-size: 20%;
-    background-position: 99% 88%;
+    background: url(./pics/contact\ form-illustratoin-3-desktop.svg) 100% 90% no-repeat, url(./pics/illustration-2-contact-form-desktop.svg) 40% 90% no-repeat, url(./pics/illustration-1-contact-form-desktop.svg) 0% 100% no-repeat;
+    /* background-repeat: no-repeat; */
+    background-size: 13%, 9%, 13%;
+    /* background-position: 99% 88%; */
     width: 90%;
     padding: 5em 0;
+    padding-bottom: 12em;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -610,7 +610,7 @@ footer {
   #form-element {
     display: flex;
     flex-direction: column;
-    width: 55.5vw;
+    width: 50.5vw;
     height: auto;
     margin-top: 3.6em;
     margin-left: 2%;
