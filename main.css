@@ -393,7 +393,7 @@ footer {
   align-items: center;
 }
 
-  @media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   
   body {
     width: 100%;
@@ -621,4 +621,4 @@ button {
     #email {
       display: none;
     }
-  }
+}
