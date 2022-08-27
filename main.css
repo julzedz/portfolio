@@ -419,10 +419,12 @@ footer {
     height: 40px;
     background: white;
   }
+  
   nav li {
     padding: 10px 10px;
     list-style: none;
   }
+
   nav a {
     font-size: 15px;
     display: flex;
@@ -436,6 +438,7 @@ footer {
     padding: 10px;
     border-radius: 4px;
   }
+
   nav a:hover {
     background: #ff6163;
     color: #fff;
@@ -479,7 +482,7 @@ footer {
     margin-top: 30px;
     grid-template-columns: repeat(3, 1fr);
     gap: 1em;
-}
+  }
 
   .item {
     justify-content: center;
@@ -488,93 +491,93 @@ footer {
     border-radius: 0.5em;
   }
 
-.placeholder {
-  max-width: 100%;
-  height: auto;
-  object-fit: fill;
-  margin-bottom: 6em;
-}
+  .placeholder {
+    max-width: 100%;
+    height: auto;
+    object-fit: fill;
+    margin-bottom: 6em;
+  }
 
-.text-card {
-  padding: 1em;
-  padding-left: 0;
-  padding-right: 0;
-  height: auto;
-  margin-top: -240px;
-}
+  .text-card {
+    padding: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    height: auto;
+    margin-top: -240px;
+  }
 
-h3 {
-  line-height: 1em;
-}
+  h3 {
+    line-height: 1em;
+  }
 
-.subtitle {
-  height: auto;
-  width: 90.5%;
-  margin-bottom: 1em;
-}
+  .subtitle {
+    height: auto;
+    width: 90.5%;
+    margin-bottom: 1em;
+  }
 
-.courses {
-  width: 100%;
-  height: auto;
-  justify-content: space-evenly;
-  margin-bottom: 1em;
-}
+  .courses {
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    margin-bottom: 1em;
+  }
 
-.courses li {
-  justify-content: space-between;
-  padding: .7em .75em;
-  font-size: 1.2vw;
-  line-height: 1em;
-  border-radius: .25em;
-  text-align: center;
-}
+  .courses li {
+    justify-content: space-between;
+    padding: .7em .75em;
+    font-size: 1.2vw;
+    line-height: 1em;
+    border-radius: .25em;
+    text-align: center;
+  }
 
-button {
-  padding: .7em;
-  border-radius: 4px;
-  font-size: 1em;
-  line-height: 1em;
-}
+  button {
+    padding: .7em;
+    border-radius: 4px;
+    font-size: 1em;
+    line-height: 1em;
+  }
 
-#about-me {
-  background: url(./pics/illustration\ about\ me\ desktops.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
+  #about-me {
+    background: url(./pics/illustration\ about\ me\ desktops.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
 
-.about-row {
-  gap: 1.5em;
-  grid-template-columns: repeat(3, 1fr);
-}
+  .about-row {
+    gap: 1.5em;
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-.about-img {
-  margin-top: 2em;
-}
+  .about-img {
+    margin-top: 2em;
+  }
 
-.about-item h3 {
-  margin-top: .5rem;
-}
+  .about-item h3 {
+    margin-top: .5rem;
+  }
 
-.courses-about {
+  .courses-about {
   height: auto;
   margin-bottom: .5em;
   padding: 0;
   gap: .5em;
-}
+  }
 
-.courses-about li {
-  padding: .5em .75em;
-  height: 2.4em;
+  .courses-about li {
+    padding: .5em .75em;
+    height: 2.4em;
   }
 
   .socials {
   animation: 5s slide;
     }
   
-@keyframes slide {
+  @keyframes slide {
   0% {
     margin-left: 300%;
-  }
+    }
 
   100% {
     margin-left: 0%;
@@ -589,23 +592,23 @@ button {
   }
 
   #form-container {
-  width: 90%;
-  padding: 5em 0;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-}
+    width: 90%;
+    padding: 5em 0;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+  }
 
-#form-container h2 {
-  height: auto;
-  width: 33vw;
-  font-weight: 700;
-  font-size: 2.5vw;
-  line-height: 3.2rem;
-  text-align: center;
-  letter-spacing: 0.37px;
-  color: #172b4d;
-  margin: 0 auto;
+  #form-container h2 {
+    height: auto;
+    width: 33vw;
+    font-weight: 700;
+    font-size: 2.5vw;
+    line-height: 3.2rem;
+    text-align: center;
+    letter-spacing: 0.37px;
+    color: #172b4d;
+    margin: 0 auto;
   }
 
   #form-element {
@@ -618,7 +621,7 @@ button {
     margin-right: 0;
   }
 
-    #email {
-      display: none;
-    }
+  #email {
+    display: none;
+  }
 }
