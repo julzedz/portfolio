@@ -206,7 +206,7 @@ button {
   color: #fff;
   font-weight: 500;
   font-size: 1em;
-  line-height: 2em;
+  line-height: 1em;
   cursor: pointer;
   transition: all 200ms linear;
 }
@@ -525,7 +525,7 @@ footer {
     height: auto;
     width: 90.5%;
     margin-bottom: 1em;
-    line-height: 1.8em;
+    line-height: 1.2em;
     font-size: 2.4vw;
     font-weight: 600;
   }
@@ -535,11 +535,12 @@ footer {
     height: auto;
     justify-content: space-evenly;
     margin-bottom: 1em;
+    padding: 0 1em;
   }
 
   .courses li {
     justify-content: space-between;
-    padding: 0.7em 0.75em;
+    padding: 0.7em 0.3em;
     font-size: 1.2vw;
     line-height: 1em;
     border-radius: 0.25em;
