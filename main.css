@@ -148,7 +148,7 @@ a {
   justify-content: space-evenly;
   align-items: center;
   background: #fff;
-  border-radius: .5em;
+  border-radius: 0.5em;
   margin-top: -222px;
 }
 
@@ -210,7 +210,7 @@ button {
 
 button:hover {
   background: #c5e9da;
-  box-shadow: 0 .25em .25em;
+  box-shadow: 0 0.25em 0.25em;
   opacity: 0.8;
   color: #172b4d;
 }
@@ -293,7 +293,7 @@ button:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: .5em;
+  gap: 0.5em;
   flex-wrap: wrap;
 }
 
@@ -302,7 +302,7 @@ button:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: .5rem .75rem;
+  padding: 0.5rem 0.75rem;
   font-size: 0.7em;
   height: 2.4rem;
   line-height: 1em;
@@ -330,7 +330,7 @@ button:hover {
 .input-field {
   padding: 1em;
   margin-bottom: 1.5em;
-  border-radius: .2em;
+  border-radius: 0.2em;
   background: #fff;
   border: 1px solid #d0d9d4;
 }
@@ -394,11 +394,10 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-  
   body {
     width: 100%;
   }
-  
+
   nav {
     position: fixed;
     display: flex;
@@ -410,7 +409,7 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  
+
   nav ul {
     display: flex;
     justify-content: center;
@@ -419,7 +418,7 @@ footer {
     height: 40px;
     background: white;
   }
-  
+
   nav li {
     padding: 10px 10px;
     list-style: none;
@@ -443,11 +442,11 @@ footer {
     background: #ff6163;
     color: #fff;
   }
-  
+
   #top img {
     display: none;
   }
-  
+
   #headline {
     background: url(./pics/Header-llustration-desktop.svg);
     background-size: 100%;
@@ -525,15 +524,15 @@ footer {
 
   .courses li {
     justify-content: space-between;
-    padding: .7em .75em;
+    padding: 0.7em 0.75em;
     font-size: 1.2vw;
     line-height: 1em;
-    border-radius: .25em;
+    border-radius: 0.25em;
     text-align: center;
   }
 
   button {
-    padding: .7em;
+    padding: 0.7em;
     border-radius: 4px;
     font-size: 1em;
     line-height: 1em;
@@ -555,32 +554,32 @@ footer {
   }
 
   .about-item h3 {
-    margin-top: .5rem;
+    margin-top: 0.5rem;
   }
 
   .courses-about {
-  height: auto;
-  margin-bottom: .5em;
-  padding: 0;
-  gap: .5em;
+    height: auto;
+    margin-bottom: 0.5em;
+    padding: 0;
+    gap: 0.5em;
   }
 
   .courses-about li {
-    padding: .5em .75em;
+    padding: 0.5em 0.75em;
     height: 2.4em;
   }
 
   .socials {
-  animation: 5s slide;
-    }
-  
+    animation: 5s slide;
+  }
+
   @keyframes slide {
-  0% {
-    margin-left: 300%;
+    0% {
+      margin-left: 300%;
     }
 
-  100% {
-    margin-left: 0%;
+    100% {
+      margin-left: 0%;
     }
   }
 
@@ -589,9 +588,6 @@ footer {
     background-repeat: no-repeat;
     background-size: 20%;
     background-position: 99% 88%;
-  }
-
-  #form-container {
     width: 90%;
     padding: 5em 0;
     height: auto;
