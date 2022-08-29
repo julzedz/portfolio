@@ -10,7 +10,7 @@ This is a repository containing my portfolio, which is the collection of differe
 - HTML
 
 ## Live Demo Link
-https://julzedz.github.io/
+- https://julzedz.github.io/
 
 ## Getting Started
 
@@ -18,7 +18,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-**Log into microverse, and clone the repository.**
+**Log into github, and copy the repository url.**
 
 ### Setup
 
@@ -32,6 +32,7 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@julzedz](https://github.com/julzedz)
 - Twitter: [@julzedz](https://twitter.com/julzedz)
+- LinkedIn: (https://www.linkedin.com/in/jules-edozie-b59b94234/)
 
 ## 🤝 Contributing
 
