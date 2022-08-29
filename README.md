@@ -9,6 +9,8 @@ This is a repository containing my portfolio, which is the collection of differe
 - CSS
 - HTML
 
+## Live Demo Link
+https://julzedz.github.io/
 
 ## Getting Started
 
