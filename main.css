@@ -67,7 +67,7 @@ h1 {
 }
 
 #title-span {
-  color: #36b37e;
+  color: #1c6349;
 }
 
 .text {
@@ -202,7 +202,7 @@ button {
   padding: 12px;
   border-radius: 4px;
   border: none;
-  background: #36b37f;
+  background: #1d6346;
   color: #fff;
   font-weight: 500;
   font-size: 1em;
@@ -310,7 +310,7 @@ button:hover {
   height: 2.4rem;
   line-height: 1em;
   font-weight: 600;
-  color: #36b37e;
+  color: #1c5e43;
   letter-spacing: 0.03em;
   background: #fff;
   border-radius: 0.5em;
