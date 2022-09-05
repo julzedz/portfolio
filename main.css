@@ -25,7 +25,7 @@ body {
   justify-content: space-between;
 }
 
-nav ul {
+.menu-item {
   display: none;
 }
 
@@ -433,6 +433,9 @@ footer {
     width: 100%;
   }
 
+  .close{
+    display: none;
+  }
   .hamburger {
     display: none;
   }
