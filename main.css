@@ -33,7 +33,7 @@ body {
   }
   nav {
     width: 100%;
-    background: #effefe;
+    background: #eff1f1;
     height: 0;
     overflow: hidden;
     transition: 250ms height ease-in-out;
