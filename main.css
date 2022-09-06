@@ -33,7 +33,7 @@ body {
   }
   nav {
     width: 100%;
-    background: #eff1f1;
+    background: #effefe;
     height: 0;
     overflow: hidden;
     transition: 250ms height ease-in-out;
@@ -43,6 +43,7 @@ body {
     height: 100vh;
   }
 
+  
 
   .hidden {
     display: none;
@@ -72,6 +73,7 @@ body {
     position: absolute;
     top: 1rem;
     right: 1rem;
+    cursor: pointer;
   }
   .close {
     position: absolute;
@@ -80,23 +82,6 @@ body {
     display: none;
   }
 }
-
-
-
-/* .close{
-  display: none;
-} */
-
-/* .visible, .close{
-  display: block;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-} */
-
-/* .hamburger{
-  display: block;
-} */
 
 #logo {
   align-self: flex-start;
