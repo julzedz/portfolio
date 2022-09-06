@@ -10,13 +10,16 @@
 <body>
   <header id="top">
     <a href="#"><img src="./pics/LogoPlaceholder.png" alt="website logo"></a>
-    <nav>
-      <a href="#"><img src="./pics/Icon-Menu.png" alt="menu"></a>
-      <ul>
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">About</a></li>
+    <div class="hamburger " id="hamburger-toggle">
+            <img class="nav-icon" src="./pics/Icon-Menu.png" alt="open hamburger menu">
+            <img class="close nav-icon" src="./pics/Icon.svg" alt="close hamburger menu">
+    </div>
+    <nav class="nav-class">
+      <ul class="menu-item" onclick="">
+      <li><a href="#headline">Portfolio</a></li>
+      <li><a href="#about-me">About</a></li>
       <li><a href="#">Contact</a></li>
-    </ul>
+      </ul>
     </nav>
   </header>
   <main>
@@ -189,6 +192,6 @@
     </ul>
   <div id="email">edoziechukwuma@gmail.com</div>
   </footer>
-
+  <script src="javascript/mobile.js"></script>
 </body>
 </html>
