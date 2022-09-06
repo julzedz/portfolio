@@ -25,41 +25,78 @@ body {
   justify-content: space-between;
 }
 
-.menu-item {
+@media all and (max-width:768px){
+  #top{
+    flex-direction: column;
+    align-items: flex-start;
+    background: #eff1f1;
+  }
+  nav {
+    width: 100%;
+    background: #eff1f1;
+    height: 0;
+    overflow: hidden;
+    transition: 250ms height ease-in-out;
+  }
+
+  .open {
+    height: 100vh;
+  }
+
+
+  .hidden {
+    display: none;
+  }
+
+  .visible {
+    display: block !important;
+  }
+  nav ul{
+    width: 100%;
+    height: 90vh;
+  }
+  nav li {
+    padding: 1rem ;
+    margin: 0 auto;
+  }
+
+  nav a{
+    color: #3a4a42;
+    font-weight: 500;
+    font-size: 28px;
+  }
+  #headline {
+    padding-top: 0;
+  }
+  .hamburger {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  .close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+  }
+}
+
+
+
+/* .close{
   display: none;
-}
+} */
 
-.visible {
-  display: flex;
-  height: 100vh;
-  position: fixed;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  z-index: 10;
-  background: #FFFFFF;
-  mix-blend-mode: normal;
-  flex-direction: column;
-  align-items: flex-start;
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
-  transition: top 1s ease;
-  list-style: none;
-}
-
-.close{
-  display: none;
-}
-
-.visible, .close{
+/* .visible, .close{
   display: block;
   position: absolute;
   top: 20px;
   right: 20px;
-}
+} */
 
-.hamburger{
+/* .hamburger{
   display: block;
-}
+} */
 
 #logo {
   align-self: flex-start;
@@ -433,9 +470,6 @@ footer {
     width: 100%;
   }
 
-  .close{
-    display: none;
-  }
   .hamburger {
     display: none;
   }

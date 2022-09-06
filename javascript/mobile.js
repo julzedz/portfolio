@@ -1,16 +1,16 @@
-var menuItem = document.querySelector('.menu-item');
-var close = document.querySelector('.close');
-var openMenu = document.querySelector('.hamburger');
+const hamburger = document.querySelector('#hamburger-toggle');
+const nav = document.querySelector('nav');
+const navIcon = document.querySelectorAll('.nav-icon')
+const close = document.querySelector('.close')
 
-function displayMenu(){
-  menuItem.classList.toggle('visible');
-  close.style.display= 'flex';
+
+hamburger.addEventListener('click',(e) => {
+  nav.classList.toggle('open')
+  e.preventDefault();
+  close.classList.toggle('visible')
+  navIcon.forEach(icon => {
+    icon.classList.toggle('hidden');
+
+  })
 }
-
-function closeMenu(){
-  menuItem.style.top= '-200%';
-  close.style.display= 'none';
-}
-
-openMenu.addEventListener('click',displayMenu);
-close.addEventListener('click',closeMenu);
+)
