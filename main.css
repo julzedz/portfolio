@@ -87,6 +87,57 @@ body {
   }
 }
 
+.details {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  background: #eff1fe;
+  border-radius: .5rem;
+}
+
+#details-img {
+  margin: 0 auto 1rem auto;
+  padding: 0;
+}
+
+#details-text {
+  text-align: left;
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 1rem;
+  line-height: 1.5rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#details-hgroup {
+  width: 100%;
+}
+
+#details-title {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  color: #172b4d;
+  margin-bottom: .7rem;
+}
+
+.details .courses {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: .5rem;
+}
+
+.details-buttons {
+  width: 100%;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 #logo {
   align-self: flex-start;
 }
