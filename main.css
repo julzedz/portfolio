@@ -138,6 +138,10 @@ body {
   align-items: center;
 }
 
+#details-close {
+  display: none;
+}
+
 #logo {
   align-self: flex-start;
 }
@@ -813,6 +817,7 @@ footer {
     width: auto;
     gap: 0.5rem;
     margin: 1rem;
+    font-size: .8rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
