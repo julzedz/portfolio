@@ -87,19 +87,42 @@ body {
   }
 }
 
-.details {
-  width: 95%;
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
   height: auto;
-  margin: 0 auto;
-  padding: 1rem 1.5rem;
-  background: #eff1fe;
+  width: 100%;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 71%;
+  height: auto;
+  margin: -95px auto;
+  padding: 1rem 0;
+  background: #fff;
   border-radius: .5rem;
 }
 
 #details-img {
-  margin: 0 auto 1rem auto;
+  margin: 0 0 1rem 0;
   padding: 0;
+  align-self: center;
+  justify-self: center;
+  width: 90.6%;
 }
+
+#details-img:hover {
+    color: #000;
+    cursor: pointer;
+  }
 
 #details-img-desktop {
   display: none;
@@ -110,23 +133,28 @@ body {
   font-size: 1rem;
   font-family: 'Times New Roman', Times, serif;
   margin: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   line-height: 1.5rem;
   margin-left: 0;
   margin-right: 0;
 }
 
 #details-title {
-  font-size: 2rem;
-  line-height: 2.8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1.6rem;
+  line-height: 2rem;
   color: #172b4d;
   margin-bottom: .7rem;
 }
 
-.details .courses {
+#details-courses {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: .5rem;
+  align-self: flex-start;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-items: flex-start;
 }
 
 .details-buttons {
@@ -758,9 +786,9 @@ footer {
   .details {
     width: 64%;
     height: auto;
-    margin: 0 auto;
+    margin: -90px auto;
     padding: 0;
-    background: #eff1fe;
+    background: #fff;
     border-radius: .5rem;
     position: relative;
 }
@@ -782,6 +810,11 @@ footer {
     padding-top: .5rem;
     margin-bottom: .5rem;
 }
+
+  #details-close:hover {
+    color: #000;
+    cursor: pointer;
+  }
 
   #details-text {
     text-align: left;
@@ -825,5 +858,16 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+}
+
+  .modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.8);
 }
 }

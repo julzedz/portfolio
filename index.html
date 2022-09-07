@@ -15,10 +15,10 @@
             <img class="close nav-icon" src="./pics/Icon.svg" alt="close hamburger menu">
     </div>
     <nav class="nav-class">
-      <ul class="menu-item" onclick="">
-      <li><a href="#headline">Portfolio</a></li>
-      <li><a href="#about-me">About</a></li>
-      <li><a href="#">Contact</a></li>
+      <ul class="menu-item">
+      <li><a class="navlink" href="#headline">Portfolio</a></li>
+      <li><a class="navlink" href="#about-me">About</a></li>
+      <li><a class="navlink" href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -29,17 +29,18 @@
         I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.
       </p>
       <ul class="socials">
-        <li><a href="#"><img src="./pics/github.png" alt="github logo"></a></li>
-        <li><a href="#"><img src="./pics/linkedin.png" alt="linkedin logo"></a></li>
+        <li><a href="https://github.com/julzedz"><img src="./pics/github.png" alt="github logo"></a></li>
+        <li><a href="https://www.linkedin.com/in/jules-edozie-b59b94234/"><img src="./pics/linkedin.png" alt="linkedin logo"></a></li>
         <li><a href="#"><img src="./pics/Enabled.png" alt="enabled"></a></li>
-        <li><a href="#"><img src="./pics/twitter.png" alt="twitter"></a></li>
+        <li><a href="https://twitter.com/julzedz"><img src="./pics/twitter.png" alt="twitter"></a></li>
         <li><a href="#"><img src="./pics/medium.png" alt="medium"></a></li>
       </ul>
       <div >
         <a href="#"><img src="./pics/Action.png" alt="action button"></a>
       </div>
     </section>
-    <section class="details">
+    <section class="modal">
+      <div class="details">
       <img id="details-close" src="./pics/Disabled.svg" alt="close button">
       <img id="details-img" src="./pics/Snapshoot-Portfolio.svg" alt="project image">
       <img id="details-img-desktop" src="./pics/SnapshootDesktopPortfolio.svg" alt="project image">
@@ -63,7 +64,9 @@
         <button type="submit">See Source <img src="./pics/Icon-GitHub.svg" alt="github image">
         </button>
       </div>
+    </div>
     </section>
+
     <section id="works">
       <header id="recent">
         <h1>My Recent Works</h1>
@@ -81,7 +84,7 @@
               <li>JavaScript</li>
               <li>HTML</li>
             </ul>
-          <button type="submit">See Project</button>
+          <button class="modal-btn" type="submit">See Project</button>
           </div>
         </li>
         <li class="item">
@@ -94,7 +97,7 @@
               <li>JavaScript</li>
               <li>HTML</li>
             </ul>
-            <button type="submit">See Project</button>
+            <button class="modal-btn" type="submit">See Project</button>
           </div>
         </li>
         <li class="item">
@@ -107,7 +110,7 @@
               <li>JavaScript</li>
               <li>HTML</li>
             </ul>
-            <button type="submit">See Project</button>
+            <button class="modal-btn" type="submit">See Project</button>
           </div>
       </li>
         <li class="item">
@@ -120,7 +123,7 @@
               <li>JavaScript</li>
               <li>HTML</li>
             </ul>
-            <button type="submit">See Project</button>
+            <button class="modal-btn" type="submit">See Project</button>
           </div>
       </li>
         <li class="item">
@@ -133,7 +136,7 @@
               <li>JavaScript</li>
               <li>HTML</li>
             </ul>
-            <button type="submit">See Project</button>
+            <button class="modal-btn" type="submit">See Project</button>
           </div>
         </li>
         <li class="item">
@@ -146,7 +149,7 @@
               <li>JavaScript</li>
               <li>HTML</li>
             </ul>
-            <button type="submit">See Project</button>
+            <button class="modal-btn" type="submit">See Project</button>
         </div>
         </li>
       </ul>
@@ -218,5 +221,6 @@
   <div id="email">edoziechukwuma@gmail.com</div>
   </footer>
   <script src="javascript/mobile.js"></script>
+  <script src="javascript/modal.js"></script>
 </body>
 </html>
