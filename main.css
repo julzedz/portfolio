@@ -101,6 +101,10 @@ body {
   padding: 0;
 }
 
+#details-img-desktop {
+  display: none;
+}
+
 #details-text {
   text-align: left;
   font-size: 1rem;
@@ -109,10 +113,6 @@ body {
   line-height: 1.5rem;
   margin-left: 0;
   margin-right: 0;
-}
-
-#details-hgroup {
-  width: 100%;
 }
 
 #details-title {
@@ -750,4 +750,75 @@ footer {
   #email {
     display: none;
   }
+
+  .details {
+    width: 64%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 0 1rem 0;
+    background: #eff1fe;
+    border-radius: .5rem;
+}
+
+  #details-img {
+    display: none;
+}
+
+#details-img-desktop {
+  display: block;
+  padding-bottom: 1rem;
+  width: 95%;
+}
+
+#details-close {
+  align-self: flex-end;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+  #details-text {
+    text-align: left;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1rem 0 0 0;
+    line-height: 1.5rem;
+    font-weight: 400;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+  #details-hgroup {
+    width: 60%;
+    align-self: flex-start;
+}
+
+  #details-title {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #172b4d;
+    padding-left: 1rem;
+    margin-bottom: .7rem;
+}
+
+  .details .courses {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .5rem;
+    margin-bottom: .5rem;
+}
+
+  .details-buttons {
+    width: auto;
+    gap: 0.5rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    bottom: 16rem;
+    left: 30%;
+}
 }
