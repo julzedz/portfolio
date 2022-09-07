@@ -1,20 +1,30 @@
 // get modal element
-let modal = document.querySelector('.modal');
+let modal = document.querySelector('.modal')
 // get open modal buttons
 let modalBtns = document.querySelectorAll('.modal-btn');
+
+modalBtns.forEach((btn) => {
+  btn.addEventListener('click', (e) => {
+    e.preventDefault()
+    modal.style.display = 'block';
+
+    closeBtn.addEventListener('click', () => {
+      modal.style.display = 'none';
+    })
+
+  })
+})
 // get close buttons
 let closeBtn = document.querySelector('#details-close');
 let closeMobile = document.querySelector('#details-img');
 
 // listen for clicks on the modalBtns
-modalBtns.forEach((btn) => {
-  btn.addEventListener('click', () => {
-    modal.style.display = 'block';
-  })
+modalBtns.addEventListener('click', () => {
+  modal.style.display = 'block';
 })
 
 // listen for close click
-closeBtn.addEventListener('click',() => {
+closeBtn.addEventListener('click', () => {
   modal.style.display = 'none';
 })
 
@@ -29,3 +39,4 @@ window.addEventListener('click', (e) => {
     modal.style.display = 'none';
   }
 })
+

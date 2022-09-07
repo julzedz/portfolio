@@ -93,7 +93,7 @@ body {
   z-index: 1;
   left: 0;
   top: 0;
-  height: auto;
+  height: 100%;
   width: 100%;
   overflow: auto;
   background: rgba(0, 0, 0, 0.8);
