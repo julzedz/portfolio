@@ -1,72 +1,71 @@
 const cardData = [
   {
-    name: "Multi-Post Stories Gain + Glory",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
-    image: "./pics/SnapshootDesktopPortfolio.svg",
-    imgMobile: "./pics/Snapshoot-Portfolio.svg",
-    linkLive: "https://julzedz.github.io/",
-    linkSource: "https://julzedz.github.io/",
+    name: 'Multi-Post Stories Gain + Glory',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    image: './pics/SnapshootDesktopPortfolio.svg',
+    imgMobile: './pics/Snapshoot-Portfolio.svg',
+    linkLive: 'https://julzedz.github.io/',
+    linkSource: 'https://julzedz.github.io/',
   },
   {
-    name: "Multi-Post Stories Gain + Glory",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
-    image: "./pics/SnapshootDesktopPortfolio.svg",
-    imgMobile: "./pics/Snapshoot-Portfolio.svg",
-    linkLive: "https://julzedz.github.io/",
-    linkSource: "https://julzedz.github.io/",
+    name: 'Multi-Post Stories Gain + Glory',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    image: './pics/SnapshootDesktopPortfolio.svg',
+    imgMobile: './pics/Snapshoot-Portfolio.svg',
+    linkLive: 'https://julzedz.github.io/',
+    linkSource: 'https://julzedz.github.io/',
   },
   {
-    name: "Multi-Post Stories Gain + Glory",
+    name: 'Multi-Post Stories Gain + Glory',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
-    image: "./pics/SnapshootDesktopPortfolio.svg",
-    imgMobile: "./pics/Snapshoot-Portfolio.svg",
-    linkLive: "https://julzedz.github.io/",
-    linkSource: "https://julzedz.github.io/",
+    technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    image: './pics/SnapshootDesktopPortfolio.svg',
+    imgMobile: './pics/Snapshoot-Portfolio.svg',
+    linkLive: 'https://julzedz.github.io/',
+    linkSource: 'https://julzedz.github.io/',
   },
   {
-    name: "Multi-Post Stories Gain + Glory",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
-    image: "./pics/SnapshootDesktopPortfolio.svg",
-    imgMobile: "./pics/Snapshoot-Portfolio.svg",
-    linkLive: "https://julzedz.github.io/",
-    linkSource: "https://julzedz.github.io/",
+    name: 'Multi-Post Stories Gain + Glory',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    image: './pics/SnapshootDesktopPortfolio.svg',
+    imgMobile: './pics/Snapshoot-Portfolio.svg',
+    linkLive: 'https://julzedz.github.io/',
+    linkSource: 'https://julzedz.github.io/',
   },
   {
-    name: "Multi-Post Stories Gain + Glory",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
-    image: "./pics/SnapshootDesktopPortfolio.svg",
-    imgMobile: "./pics/Snapshoot-Portfolio.svg",
-    linkLive: "https://julzedz.github.io/",
-    linkSource: "https://julzedz.github.io/",
+    name: 'Multi-Post Stories Gain + Glory',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    image: './pics/SnapshootDesktopPortfolio.svg',
+    imgMobile: './pics/Snapshoot-Portfolio.svg',
+    linkLive: 'https://julzedz.github.io/',
+    linkSource: 'https://julzedz.github.io/',
   },
   {
-    name: "Multi-Post Stories Gain + Glory",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
-    image: "./pics/SnapshootDesktopPortfolio.svg",
-    imgMobile: "./pics/Snapshoot-Portfolio.svg",
-    linkLive: "https://julzedz.github.io/",
-    linkSource: "https://julzedz.github.io/",
+    name: 'Multi-Post Stories Gain + Glory',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    image: './pics/SnapshootDesktopPortfolio.svg',
+    imgMobile: './pics/Snapshoot-Portfolio.svg',
+    linkLive: 'https://julzedz.github.io/',
+    linkSource: 'https://julzedz.github.io/',
   },
 ];
 
 // get modal element
-let modal = document.querySelector('.modal');
+const modal = document.querySelector('.modal');
 // get open modal buttons
-let modalBtns = document.querySelectorAll('.modal-btn');
+const modalBtns = document.querySelectorAll('.modal-btn');
 
 // listen for clicks on the modal Btns
 modalBtns.forEach((btn, index) => {
   let modalContent = '';
-  let li = ''
-  let ulArr = cardData[index].technologies;
-  for (let i = 0; i < ulArr.length; i++) {
+  let li = '';
+  const ulArr = cardData[index].technologies;
+  for (let i = 0; i < ulArr.length; i += 1) {
     li += `<li>${ulArr[i]}</li>`;
   }
   btn.addEventListener('click', () => {
@@ -103,24 +102,24 @@ modalBtns.forEach((btn, index) => {
     </div>`;
 
     modal.innerHTML = modalContent;
-    modal.style.display = "block";
+    modal.style.display = 'block';
 
     // get close buttons
-    let closeBtn = document.querySelector("#details-close");
-    let closeMobile = document.querySelector("#details-img");
+    const closeBtn = document.querySelector('#details-close');
+    const closeMobile = document.querySelector('#details-img');
     // listen for close click
-    closeBtn.addEventListener("click", () => {
-      modal.style.display = "none";
+    closeBtn.addEventListener('click', () => {
+      modal.style.display = 'none';
     });
-    closeMobile.addEventListener("click", () => {
-      modal.style.display = "none";
+    closeMobile.addEventListener('click', () => {
+      modal.style.display = 'none';
     });
   });
 });
 
 // listen for outside click
 window.addEventListener('click', (e) => {
-  if (e.target == modal) {
+  if (e.target === modal) {
     modal.style.display = 'none';
   }
-})
+});
