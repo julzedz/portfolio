@@ -133,8 +133,8 @@ body {
   font-size: 1rem;
   font-family: 'Times New Roman', Times, serif;
   margin: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 2rem;
   line-height: 1.5rem;
   margin-left: 0;
   margin-right: 0;
@@ -151,7 +151,10 @@ body {
 
 #details-courses {
   display: flex;
-  align-self: flex-start;
+  width: 100%;
+  gap: .5rem;
+  align-self: center;
+  justify-content: center;
   padding-left: 1rem;
   padding-right: 1rem;
   align-items: flex-start;
@@ -160,10 +163,23 @@ body {
 .details-buttons {
   width: 100%;
   margin: 1rem;
+  gap: 2vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+}
+
+.details-buttons a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.initial-button {
+  display: none;
 }
 
 #details-close {
@@ -825,11 +841,14 @@ footer {
     font-weight: 400;
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-bottom: 1rem;
 }
 
-  #details-hgroup {
-    width: 60%;
-    align-self: flex-start;
+  .btn-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
   #details-title {
@@ -838,6 +857,9 @@ footer {
     color: #172b4d;
     padding-left: 1rem;
     margin-bottom: .7rem;
+    margin-right: 0;
+    padding-right: 0;
+    width: 58%;
 }
 
   .details .courses {
@@ -847,10 +869,13 @@ footer {
     gap: .5rem;
     margin-bottom: .5rem;
 }
+  #details-courses li {
+    padding: .7rem .6rem;
+  }
 
   .details-buttons {
     width: auto;
-    gap: 0.5rem;
+    gap: 2vw;
     margin: 1rem 0 0 0;
     padding-bottom: 1rem;
     font-size: .8rem;
@@ -858,6 +883,29 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+}
+
+  .details-buttons a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+    padding: 0;
+    margin: 0;
+  }
+
+  .initial-button {
+    width: 40%;
+    padding-right: 1em;
+  }
+
+  .last-button {
+    display: none;
+  }
+
+  #details-courses {
+    justify-content: flex-start;
 }
 
   .modal {
