@@ -9,7 +9,7 @@
 
 body {
   margin: 0 auto;
-  width: 23rem;
+  /* width: 23rem; */
   overflow-x: hidden;
 }
 
@@ -20,13 +20,17 @@ a {
 #top {
   position: fixed;
   top: 0;
-  width: 23rem;
+  width: 100%;
   height: auto;
   background: white;
   padding: 0 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.action-btn {
+  width: 100%;
 }
 
 @media all and (max-width: 768px) {
@@ -107,7 +111,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 71%;
+  width: 91%;
   height: auto;
   margin: -95px auto;
   padding: 1rem 0;
@@ -213,6 +217,7 @@ section {
 #headline {
   background: url(./pics/header-illsutration-mobile.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
