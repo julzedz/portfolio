@@ -7,7 +7,7 @@ const Emailregex = /^[a-z0-9]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
 formElement.addEventListener('submit', (e) => {
   const emailInput = email.value;
   if (emailInput.match(Emailregex)) {
-    error.style.display = 'none'
+    error.style.display = 'none';
     return true;
   }
   e.preventDefault();
