@@ -491,6 +491,13 @@ button:hover {
   margin-top: 3.6em;
 }
 
+.error {
+  margin-top:-1.3em;
+  margin-bottom: .2em;
+  color: rgb(255, 70, 70);
+  display: none;
+}
+
 .input-field {
   padding: 1em;
   margin-bottom: 1.5em;
