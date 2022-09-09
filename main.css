@@ -9,20 +9,27 @@
 
 body {
   margin: 0 auto;
-  width: 23rem;
   overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
 }
 
 #top {
   position: fixed;
   top: 0;
-  width: 23rem;
+  width: 100%;
   height: auto;
   background: white;
   padding: 0 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.action-btn {
+  width: 100%;
 }
 
 @media all and (max-width: 768px) {
@@ -87,6 +94,105 @@ body {
   }
 }
 
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 91%;
+  height: auto;
+  margin: -95px auto;
+  padding: 1rem 0;
+  background: #fff;
+  border-radius: 0.5rem;
+}
+
+#details-img {
+  margin: 0 0 1rem 0;
+  padding: 0;
+  align-self: center;
+  justify-self: center;
+  width: 90.6%;
+}
+
+#details-img:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+#details-img-desktop {
+  display: none;
+}
+
+#details-text {
+  text-align: left;
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 2rem;
+  line-height: 1.5rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#details-title {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #172b4d;
+  margin-bottom: 0.7rem;
+}
+
+#details-courses {
+  display: flex;
+  width: 100%;
+  gap: 0.5rem;
+  align-self: center;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-items: flex-start;
+}
+
+.details-buttons {
+  width: 100%;
+  margin: 1rem;
+  gap: 2vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-buttons a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.initial-button {
+  display: none;
+}
+
+#details-close {
+  display: none;
+}
+
 #logo {
   align-self: flex-start;
 }
@@ -110,6 +216,7 @@ section {
 #headline {
   background: url(./pics/header-illsutration-mobile.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -150,10 +257,6 @@ h1 {
 
 li {
   list-style: none;
-  text-decoration: none;
-}
-
-a {
   text-decoration: none;
 }
 
@@ -511,11 +614,6 @@ footer {
     border-radius: 4px;
   }
 
-  nav a:hover {
-    background: #ff6163;
-    color: #fff;
-  }
-
   #top img {
     display: none;
   }
@@ -698,5 +796,131 @@ footer {
 
   #email {
     display: none;
+  }
+
+  .details {
+    width: 64%;
+    height: auto;
+    margin: -90px auto;
+    padding: 0;
+    background: #fff;
+    border-radius: 0.5rem;
+    position: relative;
+  }
+
+  #details-img {
+    display: none;
+  }
+
+  #details-img-desktop {
+    display: block;
+    padding-bottom: 1rem;
+    width: 95%;
+  }
+
+  #details-close {
+    display: block;
+    align-self: flex-end;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #details-close:hover {
+    color: #000;
+    cursor: pointer;
+  }
+
+  #details-text {
+    text-align: left;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1rem 0 0 0;
+    line-height: 1.5rem;
+    font-weight: 400;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .btn-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #details-title {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #172b4d;
+    padding-left: 1rem;
+    margin-bottom: 0.7rem;
+    margin-right: 0;
+    padding-right: 0;
+    width: 58%;
+  }
+
+  .details .courses {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #details-courses li {
+    padding: 0.7rem 0.6rem;
+  }
+
+  .details-buttons {
+    width: auto;
+    gap: 2vw;
+    margin: 1rem 0 0 0;
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .details-buttons a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav a:hover {
+    background: #ff6163;
+    color: #fff;
+  }
+
+  .initial-button {
+    width: 40%;
+    padding-right: 1em;
+  }
+
+  .last-button {
+    display: none;
+  }
+
+  #details-courses {
+    justify-content: flex-start;
+  }
+
+  .modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.8);
   }
 }

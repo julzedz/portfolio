@@ -11,3 +11,13 @@ hamburger.addEventListener('click', (e) => {
     icon.classList.toggle('hidden');
   });
 });
+
+// to close menu when item is clicked
+const lists = document.querySelector('.menu-item');
+const spreadList = [...lists.children];
+spreadList.forEach((list) => {
+  list.addEventListener('click', () => {
+    nav.classList.toggle('open');
+    close.style.display = 'none';
+  });
+});
