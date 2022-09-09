@@ -1,16 +1,16 @@
 const formElement = document.querySelector('#form-element');
-const email = formElement.elements.emaile;
+const email = document.querySelector('#emaile');
 const error = document.querySelector('.error');
-const emailInput = email.value;
-const Emailregex = /^[a-z0-9]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
 const errorMsg = 'Email should only contain lowercase letters.';
+const Emailregex = /^[a-z0-9]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
 
 formElement.addEventListener('submit', (e) => {
-  if (!emailInput.match(Emailregex)) {
-    error.innerHTML = errorMsg;
-    error.style.display = 'block';
-    e.preventDefault();
-    return false;
+  const emailInput = email.value;
+  if (emailInput.match(Emailregex)) {
+    return true;
   }
-  return true;
+  e.preventDefault();
+  error.style.display = 'block';
+  error.innerHTML = errorMsg;
+  return false;
 });
