@@ -10,7 +10,8 @@ This is a repository containing my portfolio, which is the collection of differe
 - HTML
 
 ## Live Demo Link
-- [Click Here](https://julzedz.github.io/portfolio/)
+
+ [Click Here](https://julzedz.github.io/portfolio/)
 
 ## Getting Started
 
