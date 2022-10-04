@@ -10,7 +10,7 @@ This is a repository containing my portfolio, which is the collection of differe
 - HTML
 
 ## Live Demo Link
-- https://julzedz.github.io/
+- [Click Here](https://julzedz.github.io/portfolio/)
 
 ## Getting Started
 
@@ -32,7 +32,7 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@julzedz](https://github.com/julzedz)
 - Twitter: [@julzedz](https://twitter.com/julzedz)
-- LinkedIn: (https://www.linkedin.com/in/jules-edozie-b59b94234/)
+- LinkedIn:[Jules Edozie](https://www.linkedin.com/in/jules-edozie-b59b94234/)
 
 ## 🤝 Contributing
 
