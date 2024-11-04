@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@julzedz](https://github.com/julzedz)
 - Twitter: [@julzedz](https://twitter.com/julzedz)
