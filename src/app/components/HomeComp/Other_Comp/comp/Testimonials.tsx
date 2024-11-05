@@ -1,11 +1,13 @@
 "use client";
-import GradientTxt from "../../../GradientTxt";
-import lapImg from "../../../../../../../../public/lap_img.png";
-import lapImg2 from "../../../../../../../../public/lap_img2.png";
-import quoteImg from "../../../../../../../../public/quote.svg";
+
+import lapImg from "../../../../../../public/lap_img.png";
+import lapImg2 from "../../../../../../public/lap_img2.png";
+import quoteImg from "../../../../../../public/quote.svg";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
+import GradientTxt from "../../../Reusables/GradientTxt";
+import FadeUp from "@/animations/FadeUp";
 
 export default function Testimonials() {
   const [current, setCurrent] = useState(0);
@@ -42,7 +44,7 @@ export default function Testimonials() {
   };
   return (
     <section className="mt-[102px]">
-      <div>
+      <FadeUp tag="div">
         <GradientTxt
           tagName="h4"
           txt="TESTIMONIALS"
@@ -51,7 +53,7 @@ export default function Testimonials() {
         <p className="text-[36px] font-bold leading-[110%] tracking-[0.5px] md:text-[50px] xl:text-[54px]">
           Word on the street
         </p>
-      </div>
+      </FadeUp>
       {/* animation container */}
       <div className="relative mt-10 flex flex-col items-center justify-center xl:flex-row">
         <AnimatePresence initial={false} mode="wait">

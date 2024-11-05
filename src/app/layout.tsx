@@ -14,6 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/icon.png" sizes="any" />
+      </head>
       <body suppressHydrationWarning>
         <ReduxProvider>{children}</ReduxProvider>
       </body>

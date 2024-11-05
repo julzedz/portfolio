@@ -1,14 +1,30 @@
-import GradientTxt from '../GradientTxt';
-import servicesIcon1 from '../../../../../../public/services_1.svg';
-import servicesIcon2 from '../../../../../../public/services_2.svg';
-import servicesIcon3 from '../../../../../../public/services_3.svg';
-import Image from 'next/image';
+"use client";
+
+import GradientTxt from "../Reusables/GradientTxt";
+import servicesIcon1 from "../../../../public/services_1.svg";
+import servicesIcon2 from "../../../../public/services_2.svg";
+import servicesIcon3 from "../../../../public/services_3.svg";
+import Image from "next/image";
+import FadeUp from "@/animations/FadeUp";
+
 export default function Services() {
   return (
-    <section className="mb-[80px]">
-      <GradientTxt tagName="h6" txt="SERVICES" className="font-bold text-[22px] mb-4 text-center" />
-      <h2 className="font-bold text-[36px] leading-[120%] text-center mb-10 lg:text-[54px] max-w-[800px] mx-auto">Code that solves problems, one product at a time.</h2>
-      <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+    <section id="services" className="mb-[80px]">
+      <FadeUp tag="div" className="mb-16">
+        <GradientTxt
+          tagName="h6"
+          txt="SERVICES"
+          className="mb-4 text-center text-[22px] font-bold"
+        />
+        <h2 className="mx-auto mb-10 max-w-[800px] text-center text-[36px] font-bold leading-[120%] tracking-[0.5px] lg:text-[54px]">
+          Code that solves problems, one product at a time.
+        </h2>
+      </FadeUp>
+
+      <FadeUp
+        tag="div"
+        className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3"
+      >
         <div>
           <Image src={servicesIcon1} alt="services icon 1" />
           <h6 className="font-bold text-[19px] leading-[110%] my-4 lg:mt-10 mb-6">What I can do for you</h6>
@@ -42,7 +58,7 @@ export default function Services() {
             <li className="list-disc font-bold">Efficient and Maintainable: Code that is easy to manage and scale.</li>
           </ul>
         </div>
-      </div>
+      </FadeUp>
     </section>
   );
 }

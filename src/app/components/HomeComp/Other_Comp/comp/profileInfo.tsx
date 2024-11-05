@@ -1,11 +1,18 @@
+"use client";
 import Image from "next/image";
-import GradientTxt from "../../../GradientTxt";
-import profImage from "../../../../../../../../public/lap_img.png";
-import profImage2 from "../../../../../../../../public/lap_img2.png";
+import profImage from "../../../../../../public/lap_img.png";
+import profImage2 from "../../../../../../public/lap_img2.png";
+import GradientTxt from "../../../Reusables/GradientTxt";
+import FadeUp from "@/animations/FadeUp";
+import { motion } from "framer-motion";
+
 export default function ProfileInfo() {
   return (
-    <section>
-      <div className="mb-20 flex flex-col items-start justify-between gap-4 lg:flex-row">
+    <section id="about">
+      <FadeUp
+        tag="div"
+        className="mb-20 flex flex-col items-start justify-between gap-4 lg:flex-row"
+      >
         <div>
           <GradientTxt
             txt="FULLSTACK DEVELOPER"
@@ -22,8 +29,15 @@ export default function ProfileInfo() {
           for creating seamless digital experiences and solving complex problems
           through code.
         </p>
-      </div>
-      <div className="grid gap-4">
+      </FadeUp>
+
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+        className="grid gap-4"
+      >
         <Image
           src={profImage}
           alt="image"
@@ -42,9 +56,9 @@ export default function ProfileInfo() {
         <Image
           src={profImage2}
           alt="image"
-          className="xl:aspect-9/16 col-span-2 w-full xl:col-span-1 xl:col-start-1 xl:row-span-2 xl:row-start-1 xl:row-end-3 xl:w-auto xl:object-cover"
+          className="col-span-2 w-full xl:col-span-1 xl:col-start-1 xl:row-span-2 xl:row-start-1 xl:row-end-3 xl:aspect-9/16 xl:w-auto xl:object-cover"
         />
-      </div>
+      </motion.div>
     </section>
   );
 }

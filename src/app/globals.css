@@ -11,6 +11,11 @@
   font-family: 'Plus Jakarta Display', 'Inter', sans-serif;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 .gradient_txt {
   background-image: linear-gradient(
     108deg,
@@ -19,4 +24,45 @@
     #ff8a56 81%,
     #ffa84b
   );
+}
+
+.links,
+.call {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.sharedStyles:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0.1em;
+  opacity: 0;
+  transition:
+    opacity 300ms,
+    transform 300ms;
+}
+.call:after {
+  background-image: linear-gradient(
+    108deg,
+    #b16cea 14%,
+    #ff5e69 57%,
+    #ff8a56 81%,
+    #ffa84b
+  );
+  width: 450px;
+}
+.links:after {
+  width: 200px;
+  background-color: #f3f3f3;
+}
+.links::after,
+.call::after {
+  opacity: 1;
+  transform: translate3d(-100%, 0, 0);
+}
+.links:hover::after,
+.call:hover::after {
+  transform: translate3d(0, 0, 0);
 }

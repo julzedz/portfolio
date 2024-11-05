@@ -1,12 +1,13 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
-import CustomNav from "../../CustomNav";
-import GradientTxt from "../../GradientTxt";
-import lapImg from "../../../../../../../public/lap_img.png";
-import lapImg2 from "../../../../../../../public/lap_img2.png";
+import lapImg from "../../../../../public/lap_img.png";
+import lapImg2 from "../../../../../public/lap_img2.png";
 import Image from "next/image";
 import { useRef } from "react";
 import { Swiper as SwiperType } from "swiper";
+import GradientTxt from "../../Reusables/GradientTxt";
+import CustomNav from "../../Reusables/CustomNav";
+
 export default function AnimatedSlide() {
   const swiperRef = useRef<SwiperType | null>(null);
   return (
