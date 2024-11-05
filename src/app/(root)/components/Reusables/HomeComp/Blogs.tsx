@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import CustomNav from "../CustomNav";
 import GradientTxt from "../GradientTxt";
+
 export default function Blogs() {
   const [isBottom, setIsBottom] = useState(false);
   useEffect(() => {
@@ -43,7 +44,7 @@ export default function Blogs() {
           </h2>
           <CustomNav
             txt="View all"
-            className="flex items-center gap-2 text-[14px] text-white lg:text-[18px]"
+            className="flex items-center gap-2 text-[14px] tracking-[0.5px] text-white lg:text-[18px]"
           />
         </div>
         <div id="right-content" className="overflow-auto md:max-w-[50%]">

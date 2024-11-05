@@ -8,7 +8,7 @@ export default function Services() {
     <section className="mb-[80px]">
       <GradientTxt tagName="h6" txt="SERVICES" className="font-bold text-[22px] mb-4 text-center" />
       <h2 className="font-bold text-[36px] leading-[120%] text-center mb-10 lg:text-[54px] max-w-[800px] mx-auto">Design that solves problems, one product at a time.</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
         <div>
           <Image src={servicesIcon1} alt="services icon 1" />
           <h6 className="font-bold text-[19px] leading-[110%] my-4 lg:mt-10 mb-6">What I can do for you</h6>
