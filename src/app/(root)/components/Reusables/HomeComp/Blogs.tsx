@@ -6,11 +6,13 @@ import GradientTxt from "../GradientTxt";
 export default function Blogs() {
   const [isBottom, setIsBottom] = useState(false);
   useEffect(() => {
+
     const rightContent = document.getElementById("right-content");
-    const leftContent = document.getElementById("left-content");
-    const handleScroll = () => {
-      if (rightContent && leftContent) {
+
+    const handleScroll = function () {
+      if (rightContent) {
         const { scrollTop, scrollHeight, clientHeight } = rightContent;
+        console.log(scrollTop, scrollHeight, clientHeight, "asdfs");
         if (scrollTop + clientHeight >= scrollHeight) {
           setIsBottom(true);
         } else {
@@ -32,7 +34,7 @@ export default function Blogs() {
       <div className="container mx-auto flex flex-col items-start justify-between gap-10 px-5 pb-[100px] pt-[300px] md:flex-row md:gap-2 lg:px-20">
         <div
           id="left-content"
-          className={`top-20 md:sticky ${isBottom ? "md:bottom-0" : ""}`}
+          className={`md:sticky ${isBottom ? "md:bottom-0" : "md:top-20"}`}
         >
           <GradientTxt
             tagName="h5"

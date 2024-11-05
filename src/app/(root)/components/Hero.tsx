@@ -9,7 +9,7 @@ export default function Hero() {
     <section className="my-[80px] gap-16 xl:flex">
       <div>
         <h1 className="font-bold text-[40px] md:text-[68px] lg:text-[75px] leading-[110%] mb-4">
-          <GradientTxt tagName="span" txt="I design products" /> that delights and inspire people.
+          <GradientTxt tagName="span" txt="I develop fullstack" /> solutions that delight and inspire users.
         </h1>
         <p className="text-[#666] text-[19px] lg:text-[22px] mb-16">Hi! I'm Jules, a Fullstack Web Developer based in Nigeria. I create user-friendly websites for fast-growing startups.</p>
         <div className="mb-16 flex flex-col gap-4 md:flex-row">

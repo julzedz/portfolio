@@ -10,3 +10,13 @@
   box-sizing: border-box;
   font-family: 'Plus Jakarta Display', 'Inter', sans-serif;
 }
+
+.gradient_txt {
+  background-image: linear-gradient(
+    108deg,
+    #b16cea 14%,
+    #ff5e69 57%,
+    #ff8a56 81%,
+    #ffa84b
+  );
+}

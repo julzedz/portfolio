@@ -1,4 +1,4 @@
-import Footer from './(root)/components/Footer';
+import Footer from './(root)/components/Footer/Footer';
 import Header from './(root)/components/Header';
 import Hero from './(root)/components/Hero';
 import Blogs from './(root)/components/Reusables/HomeComp/Blogs';

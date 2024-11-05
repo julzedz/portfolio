@@ -17,10 +17,10 @@ export default function ProfileInfo() {
           </h2>
         </div>
         <p className="text-[19px] leading-[40px] text-[#666] md:text-[22px] lg:max-w-[50%]">
-          Over the past 4 years, I've worked with a diverse range of clients,
-          from startups to different clientele.I bring a passion for creating
-          seamless digital experiences and solving complex problems through
-          code.
+          Over the past 4 years, I've collaborated with a diverse range of
+          clients, from startups to established businesses. I bring a passion
+          for creating seamless digital experiences and solving complex problems
+          through code.
         </p>
       </div>
       <div className="grid gap-4">
