@@ -12,7 +12,7 @@ export default function GradientTxt({
   return createElement(
     tagName,
     {
-      className: `bg-clip-text text-transparent gradient_txt ${className}`,
+      className: `bg-gradient-to-r from-purple-400 via-red-500 bg-clip-text text-transparent to-orange-600 ${className}`,
     },
     txt,
   );

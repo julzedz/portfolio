@@ -116,7 +116,7 @@ export default function Header() {
               </Link>
               <Link
                 href="/contact"
-                className={`my-5 gap-3 transition-opacity duration-75 ${pathname === "/projects" ? "opacity-50" : "hover:opacity-50"}`}
+                className={`my-5 flex items-center gap-2 transition-opacity duration-75 ${pathname === "/contact" ? "opacity-50" : "hover:opacity-50"}`}
               >
                 <span>Book a call</span>
                 <svg

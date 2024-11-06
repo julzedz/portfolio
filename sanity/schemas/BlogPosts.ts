@@ -1,42 +1,47 @@
 export const BlogPosts = {
-  name: 'project',
-  title: 'Projects',
-  type: 'document',
+  name: "blog",
+  title: "Blogs",
+  type: "document",
   fields: [
     {
-      name: 'name',
-      title: 'Name',
-      type: 'string',
+      name: "name",
+      title: "Name",
+      type: "string",
     },
     {
-      name: 'slug',
-      title: 'Slug',
-      type: 'slug',
-      optoins: { source: 'name' },
+      name: "slug",
+      title: "Slug",
+      type: "slug",
+      options: {
+        soure: "name",
+        maxLength: 96,
+      },
     },
     {
-      name: 'image',
-      title: 'Image',
-      type: 'image',
+      name: "image",
+      title: "Image",
+      type: "image",
       options: { hotspot: true },
       fields: [
         {
-          name: 'alt',
-          title: 'Alt',
-          type: 'string',
+          name: "alt",
+          title: "Alt",
+          type: "string",
         },
       ],
     },
+
     {
-      name: 'url',
-      title: 'URL',
-      type: 'url',
+      name: "url",
+      title: "URL",
+      type: "url",
     },
+
     {
-      name: 'content',
-      title: 'Content',
-      type: 'array',
-      of: [{ type: 'block' }],
+      name: "content",
+      title: "Content",
+      type: "array",
+      of: [{ type: "block" }],
     },
   ],
 };

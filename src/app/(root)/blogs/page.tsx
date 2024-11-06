@@ -1,8 +1,7 @@
-import BlogsClient from "./client/Blogs";
 export default function Blogs() {
   return (
     <section>
-      <BlogsClient />
+      <div className="container mx-auto px-5 pt-5 lg:px-20">blogs</div>
     </section>
   );
 }
