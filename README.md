@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name - Portfolio
+# Portfolio
 
 This is a repository containing my portfolio, which is the collection of different projects I have undertaken.
 
@@ -33,7 +33,7 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@julzedz](https://github.com/julzedz)
 - Twitter: [@julzedz](https://twitter.com/julzedz)
-- LinkedIn:[Jules Edozie](https://www.linkedin.com/in/jules-edozie-b59b94234/)
+- LinkedIn:[Jules Edozie](https://www.linkedin.com/in/julesedozie)
 
 ## 🤝 Contributing
 
