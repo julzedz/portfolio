@@ -17,6 +17,7 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0",
+    "terser": "^5.39.0",
     "vite": "^6.3.1"
   },
   "dependencies": {
